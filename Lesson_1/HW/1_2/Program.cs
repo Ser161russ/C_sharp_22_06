@@ -3,13 +3,16 @@
 //44 5 78 -> 78
 //22 3 9 -> 22
 Console.WriteLine("Введите первое число");
-int numberA = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите второе число");
-int numberB = Convert.ToInt32(Console.ReadLine());
-int max = 0;
-if (numberA > numberB) max = numberA;
-else max = numberB;
-Console.WriteLine(max);
+int numberA = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите первое число");
+int numberB = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите первое число");
+int numberC = int.Parse(Console.ReadLine());
+    if (numberA < numberB < numberC)
+{
+    Console.WriteLine(numberA);
+}
+
 
 
 
