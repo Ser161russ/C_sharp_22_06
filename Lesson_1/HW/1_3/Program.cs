@@ -3,7 +3,16 @@
 4 -> да
 -3 -> нет
 7 -> нет*/
-int numberA = int.Parse(Console.ReadLine()!);
+int num = int.Parse(Console.ReadLine()!);
+
+if (num % 2 == 0)
+{
+     Console.WriteLine("да");
+}
+
+else { Console.WriteLine("неть");
+}
+
 
 
 
